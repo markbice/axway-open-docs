@@ -15,6 +15,7 @@ description: Learn how to build a basic Amazon EC2 private cloud hybrid environm
 - Read [AMPLIFY Central mesh governance overview](/docs/central/hybrid_overview).
 - You will need a basic knowledge of Amazon Web Services (AWS), Amazon EC2 instances, and associated tools.
 - You will need to be familiar with Kubernetes and Helm, including running Helm, kubectl, and kops commands.
+- The AMPLIFY Central Mesh Agents will run on any current Kubernetes version; this page describes the specific details of AWS EC2 deployment.
 
 ## Objectives
 
@@ -22,7 +23,7 @@ Learn how to build a basic Amazon EC2 private cloud hybrid environment and add t
 
 {{< alert title="Tip" color="" >}}For the latest Amazon EC2 build instructions, see the [Set up AMPLIFY Central mesh governance documentation on GitHub](https://github.com/Axway/Setup-Amplify-Mesh-Governance).{{< /alert >}}
 
-## Minimum requirements
+## Minimum requirements (for AWS EC2)
 
 - Amazon EC2 instance with Kubernetes and Helm:
   - Kubernetes 1.11.7 or later recommended
