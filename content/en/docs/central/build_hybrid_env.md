@@ -22,7 +22,11 @@ Learn how to build a basic Amazon EC2 private cloud hybrid environment and add t
 
 {{< alert title="Tip" color="" >}}For the latest Amazon EC2 build instructions, see the [Set up AMPLIFY Central mesh governance documentation on GitHub](https://github.com/Axway/Setup-Amplify-Mesh-Governance).{{< /alert >}}
 
-## Minimum requirements
+{{< alert title="Note" >}}
+This example is only for Amazon AWS/EC2 Kubernetes clusters, but the general process for deploying the Axway Mesh Agents should work for any recent Kubernetes orchestration layer that provides support for Istio.  We are working to bring you more detailed support for other Kubernetes versions. Contact us if you need assistance or have a sucess story to share.
+{{< /alert >}}
+
+## Minimum requirements (for AWS/EC2)
 
 - Amazon EC2 instance with Kubernetes and Helm:
   - Kubernetes 1.11.7 or later recommended
